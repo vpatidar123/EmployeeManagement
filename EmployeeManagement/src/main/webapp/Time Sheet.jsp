@@ -12,7 +12,7 @@
 
 </head>
 <body>
-      <h1 style="color:red;">Welcome  
+      <h1 style="color:red; justify-content:center;">Welcome  
            <% 
            out.println(session.getAttribute("empName"));
            %>
